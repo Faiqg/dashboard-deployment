@@ -22,7 +22,7 @@ jobs:
       uses: pennsignals/publish_docker-compose@v0.1.1
       with:
         # Release version (tag)
-        version: '0.1' 
+        version: '' 
         # docker-compose file to build and publish images from
         docker_compose: 'dash-deployment/docker-compose.yaml'
         # Github Repo token
